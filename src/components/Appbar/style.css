@@ -1,0 +1,83 @@
+.makeStyles-drawerClose-8::-webkit-scrollbar { width: 0 !important }
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 10px;
+  }
+
+  .MuiBadge-colorPrimary {
+    color: #fff;
+    background-color: green !important;
+}
+
+.MuiBadge-dot {
+  height: 14px !important;
+  margin-right: 7px !important;
+  margin-top: 5px !important;
+  min-width: 14px !important;
+}
+
+.makeStyles-drawer-6 {
+  width: 50px !important;
+  flex-shrink: 0;
+  white-space: nowrap;
+  background-color: dark;
+}
+
+.makeStyles-drawerOpen-7 {
+  width: 290px;
+  transition: width 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  background-color: dark;
+  margin-right: 200px !important;
+}
+
+.MuiDrawer-paperAnchorDockedRight {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  width: 300px !important
+}
+
+.makeStyles-content-10 {
+  padding: 24px;
+  flex-grow: 1;
+  padding-right: 350px !important;
+}
+
+.message {
+  list-style: none;
+  padding-left: 0 !important;
+  float: left;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.message li {
+  display: inline;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: #d2dae2 !important;
+}
+
+@media (min-width: 960px) {
+  .MuiTab-root {
+    font-size: 0.8125rem;
+    min-width: 100px !important;
+}
+}

@@ -1,0 +1,11 @@
+.App {
+  background-color: #181818;
+  color: white;
+}
+
+.makeStyles-drawerPaper-202 {
+  color: white;
+  width: 240px;
+  background-color: #333;
+  overflow-y: hidden !important;
+}
